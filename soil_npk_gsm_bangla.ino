@@ -23,7 +23,7 @@
  *    পরে SIM800L লাগালে আলাদা ২A ক্ষমতার ৪.০V সাপ্লাই দিন, ESP32 এর 3.3V নয়।
  * ==========================================================================
  */
-
+#include "sensor_mapping.h"
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include <Wire.h>
